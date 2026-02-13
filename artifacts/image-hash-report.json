@@ -1,0 +1,634 @@
+[
+  {
+    "id": "p001",
+    "title": "Everyday Hydrating Shampoo",
+    "image": "images/products/p001.jpg?v=1770958220527",
+    "path": null,
+    "exists": false,
+    "sha256": null
+  },
+  {
+    "id": "p002",
+    "title": "Light Repair Conditioner",
+    "image": "images/products/p002.jpg?v=1770958220556",
+    "path": null,
+    "exists": false,
+    "sha256": null
+  },
+  {
+    "id": "p003",
+    "title": "Flexible Hold Styling Cream",
+    "image": "images/products/p003.jpg?v=1770958220684",
+    "path": null,
+    "exists": false,
+    "sha256": null
+  },
+  {
+    "id": "p004",
+    "title": "Nourish Hair Oil",
+    "image": "images/products/p004.jpg?v=1770958220693",
+    "path": null,
+    "exists": false,
+    "sha256": null
+  },
+  {
+    "id": "p005",
+    "title": "Heat Shield Spray",
+    "image": "images/products/p005.jpg?v=1770958220738",
+    "path": null,
+    "exists": false,
+    "sha256": null
+  },
+  {
+    "id": "p006",
+    "title": "Revive Scalp Treatment",
+    "image": "images/products/p006.jpg?v=1770958220808",
+    "path": null,
+    "exists": false,
+    "sha256": null
+  },
+  {
+    "id": "p007",
+    "title": "Volume Boost Mousse",
+    "image": "images/products/p007.jpg?v=1770958220843",
+    "path": null,
+    "exists": false,
+    "sha256": null
+  },
+  {
+    "id": "p039",
+    "title": "Lightweight Shine Spray",
+    "image": "images/products/p039.jpg?v=1770958220846",
+    "path": null,
+    "exists": false,
+    "sha256": null
+  },
+  {
+    "id": "p040",
+    "title": "Professional Heat Comb",
+    "image": "images/products/pp_pin_p040_jjmayk.png?v=1770958220873",
+    "path": null,
+    "exists": false,
+    "sha256": null
+  },
+  {
+    "id": "p041",
+    "title": "Daily Gentle Shampoo",
+    "image": "images/products/p041.jpg?v=1770958220889",
+    "path": null,
+    "exists": false,
+    "sha256": null
+  },
+  {
+    "id": "p042",
+    "title": "Clarify + Moisture Duo",
+    "image": "images/products/p042.jpg?v=1770958220891",
+    "path": null,
+    "exists": false,
+    "sha256": null
+  },
+  {
+    "id": "p043",
+    "title": "Salon Shine Polish",
+    "image": "images/products/pp_pin_p043_purxzy.png?v=1770958220940",
+    "path": null,
+    "exists": false,
+    "sha256": null
+  },
+  {
+    "id": "p044",
+    "title": "Smoothing Shampoo",
+    "image": "images/products/p044.jpg?v=1770958220943",
+    "path": null,
+    "exists": false,
+    "sha256": null
+  },
+  {
+    "id": "p045",
+    "title": "Salon Clay Paste",
+    "image": "images/products/p045.jpg?v=1770958220968",
+    "path": null,
+    "exists": false,
+    "sha256": null
+  },
+  {
+    "id": "p046",
+    "title": "Moisture Serum 50ml",
+    "image": "images/products/pp_pin_p046_0j830m.png?v=1770958221020",
+    "path": null,
+    "exists": false,
+    "sha256": null
+  },
+  {
+    "id": "p047",
+    "title": "Salon Hot Brush",
+    "image": "images/products/pp_pin_p047_qzovi8.png?v=1770958221023",
+    "path": null,
+    "exists": false,
+    "sha256": null
+  },
+  {
+    "id": "p048",
+    "title": "Strengthening Conditioner",
+    "image": "images/products/p048.jpg?v=1770958221039",
+    "path": null,
+    "exists": false,
+    "sha256": null
+  },
+  {
+    "id": "p049",
+    "title": "Hydrating Leave-in Mist",
+    "image": "images/products/pp_pin_p049_sywdf8.png?v=1770958221126",
+    "path": null,
+    "exists": false,
+    "sha256": null
+  },
+  {
+    "id": "p050",
+    "title": "Repair Duo Pack",
+    "image": "images/products/p050.jpg?v=1770958221130",
+    "path": null,
+    "exists": false,
+    "sha256": null
+  },
+  {
+    "id": "p051",
+    "title": "Gentle Kids Shampoo",
+    "image": "images/products/p051.jpg?v=1770958221136",
+    "path": null,
+    "exists": false,
+    "sha256": null
+  },
+  {
+    "id": "p052",
+    "title": "Hydrating Scalp Serum",
+    "image": "images/products/pp_pin_p052_qyipbt.png?v=1770958221144",
+    "path": null,
+    "exists": false,
+    "sha256": null
+  },
+  {
+    "id": "p053",
+    "title": "Matte Finish Paste",
+    "image": "images/products/p053.jpg?v=1770958221159",
+    "path": null,
+    "exists": false,
+    "sha256": null
+  },
+  {
+    "id": "p054",
+    "title": "Colour Protect Duo",
+    "image": "images/products/p054.jpg?v=1770958221161",
+    "path": null,
+    "exists": false,
+    "sha256": null
+  },
+  {
+    "id": "p055",
+    "title": "Shine & Heat Protect Oil",
+    "image": "images/products/pp_pin_p055_wl33ke.png?v=1770958221182",
+    "path": null,
+    "exists": false,
+    "sha256": null
+  },
+  {
+    "id": "p056",
+    "title": "Texturising Salt Paste",
+    "image": "images/products/p056.jpg?v=1770958221185",
+    "path": null,
+    "exists": false,
+    "sha256": null
+  },
+  {
+    "id": "p057",
+    "title": "Hydrating Conditioner 500ml",
+    "image": "images/products/p057.jpg?v=1770958221192",
+    "path": null,
+    "exists": false,
+    "sha256": null
+  },
+  {
+    "id": "p058",
+    "title": "Leave-in Repair Cream",
+    "image": "images/products/pp_pin_p058_rt1s83.png?v=1770958221196",
+    "path": null,
+    "exists": false,
+    "sha256": null
+  },
+  {
+    "id": "p059",
+    "title": "Salon Shine Oil Roller",
+    "image": "images/products/pp_pin_p059_4uaurr.png?v=1770958221210",
+    "path": null,
+    "exists": false,
+    "sha256": null
+  },
+  {
+    "id": "p060",
+    "title": "Daily Styling Cream",
+    "image": "images/products/p060.jpg?v=1770958221212",
+    "path": null,
+    "exists": false,
+    "sha256": null
+  },
+  {
+    "id": "p061",
+    "title": "Sensitive Scalp Shampoo",
+    "image": "images/products/p061.jpg?v=1770958221225",
+    "path": null,
+    "exists": false,
+    "sha256": null
+  },
+  {
+    "id": "p062",
+    "title": "Thermal Protect Serum",
+    "image": "images/products/pp_pin_p062_r38y1p.png?v=1770958221235",
+    "path": null,
+    "exists": false,
+    "sha256": null
+  },
+  {
+    "id": "p063",
+    "title": "Beach Wave Mist",
+    "image": "images/products/p063.jpg?v=1770958221257",
+    "path": null,
+    "exists": false,
+    "sha256": null
+  },
+  {
+    "id": "p064",
+    "title": "Hydrating Conditioner 250ml",
+    "image": "images/products/p064.jpg?v=1770958221260",
+    "path": null,
+    "exists": false,
+    "sha256": null
+  },
+  {
+    "id": "p065",
+    "title": "Moisture Boost Capsules",
+    "image": "images/products/p065.jpg?v=1770958221280",
+    "path": null,
+    "exists": false,
+    "sha256": null
+  },
+  {
+    "id": "p066",
+    "title": "Salon Conditioning Mask",
+    "image": "images/products/pp_pin_p066_cmn9c5.png?v=1770958221292",
+    "path": null,
+    "exists": false,
+    "sha256": null
+  },
+  {
+    "id": "p067",
+    "title": "Professional Paddle Brush",
+    "image": "images/products/pp_pin_p067_julpqq.png?v=1770958221300",
+    "path": null,
+    "exists": false,
+    "sha256": null
+  },
+  {
+    "id": "p068",
+    "title": "Light Hydration Shampoo",
+    "image": "images/products/p068.jpg?v=1770958221318",
+    "path": null,
+    "exists": false,
+    "sha256": null
+  },
+  {
+    "id": "p069",
+    "title": "Natural Volume Spray",
+    "image": "images/products/p069.jpg?v=1770958221335",
+    "path": null,
+    "exists": false,
+    "sha256": null
+  },
+  {
+    "id": "p070",
+    "title": "Hydrating Overnight Oil",
+    "image": "images/products/pp_pin_p070_s4tvy3.png?v=1770958221424",
+    "path": null,
+    "exists": false,
+    "sha256": null
+  },
+  {
+    "id": "p071",
+    "title": "Daily Conditioning Balm",
+    "image": "images/products/p071.jpg?v=1770958221426",
+    "path": null,
+    "exists": false,
+    "sha256": null
+  },
+  {
+    "id": "p072",
+    "title": "Salon Texture Spray",
+    "image": "images/products/p072.jpg?v=1770958221429",
+    "path": null,
+    "exists": false,
+    "sha256": null
+  },
+  {
+    "id": "p073",
+    "title": "Hydrating Keratin Conditioner",
+    "image": "images/products/p073.jpg?v=1770958221443",
+    "path": null,
+    "exists": false,
+    "sha256": null
+  },
+  {
+    "id": "p074",
+    "title": "Heat Defense Milk",
+    "image": "images/products/p074.jpg?v=1770958221445",
+    "path": null,
+    "exists": false,
+    "sha256": null
+  },
+  {
+    "id": "p075",
+    "title": "Repair & Grow Capsules",
+    "image": "images/products/p075.jpg?v=1770958221460",
+    "path": null,
+    "exists": false,
+    "sha256": null
+  },
+  {
+    "id": "p076",
+    "title": "Moisture Lock Serum",
+    "image": "images/products/pp_pin_p076_qa1hic.png?v=1770958221509",
+    "path": null,
+    "exists": false,
+    "sha256": null
+  },
+  {
+    "id": "p077",
+    "title": "Salon Styling Comb",
+    "image": "images/products/pp_pin_p077_ispu0k.png?v=1770958221514",
+    "path": null,
+    "exists": false,
+    "sha256": null
+  },
+  {
+    "id": "p078",
+    "title": "Hydrating Shampoo 1L",
+    "image": "images/products/p078.jpg?v=1770958221516",
+    "path": null,
+    "exists": false,
+    "sha256": null
+  },
+  {
+    "id": "p079",
+    "title": "Protein Repair Conditioner",
+    "image": "images/products/p079.jpg?v=1770958221527",
+    "path": null,
+    "exists": false,
+    "sha256": null
+  },
+  {
+    "id": "p080",
+    "title": "Sea Mineral Treatment",
+    "image": "images/products/pp_pin_p080_6pu4ez.png?v=1770958221544",
+    "path": null,
+    "exists": false,
+    "sha256": null
+  },
+  {
+    "id": "p081",
+    "title": "Flexible Hold Gel",
+    "image": "images/products/p081.jpg?v=1770958221546",
+    "path": null,
+    "exists": false,
+    "sha256": null
+  },
+  {
+    "id": "p082",
+    "title": "Revive Scalp Scrub",
+    "image": "images/products/pp_pin_p082_sslt5v.png?v=1770958221662",
+    "path": null,
+    "exists": false,
+    "sha256": null
+  },
+  {
+    "id": "p083",
+    "title": "Salon Finishing Paste",
+    "image": "images/products/p083.jpg?v=1770958221679",
+    "path": null,
+    "exists": false,
+    "sha256": null
+  },
+  {
+    "id": "p084",
+    "title": "Hydrate Daily Conditioner",
+    "image": "images/products/p084.jpg?v=1770958221681",
+    "path": null,
+    "exists": false,
+    "sha256": null
+  },
+  {
+    "id": "p085",
+    "title": "Nourish Hair Mask 100ml",
+    "image": "images/products/pp_pin_p085_0qt4yl.png?v=1770958221698",
+    "path": null,
+    "exists": false,
+    "sha256": null
+  },
+  {
+    "id": "p086",
+    "title": "Thermal Guard Spray",
+    "image": "images/products/p086.jpg?v=1770958221711",
+    "path": null,
+    "exists": false,
+    "sha256": null
+  },
+  {
+    "id": "p087",
+    "title": "Natural Bounce Mousse",
+    "image": "images/products/p087.jpg?v=1770958221714",
+    "path": null,
+    "exists": false,
+    "sha256": null
+  },
+  {
+    "id": "p088",
+    "title": "Hydrating Daily Oil",
+    "image": "images/products/pp_pin_p088_24yk5t.png?v=1770958221732",
+    "path": null,
+    "exists": false,
+    "sha256": null
+  },
+  {
+    "id": "p089",
+    "title": "Salon Detangling Brush",
+    "image": "images/products/pp_pin_p089_pixz1l.png?v=1770958221769",
+    "path": null,
+    "exists": false,
+    "sha256": null
+  },
+  {
+    "id": "p090",
+    "title": "Hydrating Shampoo (Ocean Edition)",
+    "image": "images/products/p090.jpg?v=1770958221777",
+    "path": null,
+    "exists": false,
+    "sha256": null
+  },
+  {
+    "id": "p091",
+    "title": "Repair Conditioner 1L",
+    "image": "images/products/p091.jpg?v=1770958221793",
+    "path": null,
+    "exists": false,
+    "sha256": null
+  },
+  {
+    "id": "p092",
+    "title": "Sea Salt Wave Paste",
+    "image": "images/products/p092.jpg?v=1770958221796",
+    "path": null,
+    "exists": false,
+    "sha256": null
+  },
+  {
+    "id": "p093",
+    "title": "Keratin Infused Mask",
+    "image": "images/products/pp_pin_p093_yawr9y.png?v=1770958221891",
+    "path": null,
+    "exists": false,
+    "sha256": null
+  },
+  {
+    "id": "p094",
+    "title": "Quick Dry Towel",
+    "image": "images/products/pp_pin_p094_wq9gvn.png?v=1770958221974",
+    "path": null,
+    "exists": false,
+    "sha256": null
+  },
+  {
+    "id": "p095",
+    "title": "Hydrating Scalp Oil",
+    "image": "images/products/pp_pin_p095_m0l821.png?v=1770958221991",
+    "path": null,
+    "exists": false,
+    "sha256": null
+  },
+  {
+    "id": "p096",
+    "title": "Everyday Volume Mousse",
+    "image": "images/products/p096.jpg?v=1770958221994",
+    "path": null,
+    "exists": false,
+    "sha256": null
+  },
+  {
+    "id": "p097",
+    "title": "Salon Shine Oil 30ml",
+    "image": "images/products/pp_pin_p097_7av3j5.png?v=1770958222040",
+    "path": null,
+    "exists": false,
+    "sha256": null
+  },
+  {
+    "id": "p098",
+    "title": "Herbal Hair Rinse",
+    "image": "images/products/pp_pin_p098_j41h05.png?v=1770958222110",
+    "path": null,
+    "exists": false,
+    "sha256": null
+  },
+  {
+    "id": "p099",
+    "title": "Salon Glaze Spray",
+    "image": "images/products/p099.jpg?v=1770958222112",
+    "path": null,
+    "exists": false,
+    "sha256": null
+  },
+  {
+    "id": "p100",
+    "title": "Hydrating Shampoo + Conditioner Travel Set",
+    "image": "images/products/p100.jpg?v=1770958222114",
+    "path": null,
+    "exists": false,
+    "sha256": null
+  },
+  {
+    "id": "p101",
+    "title": "Nourish Shampoo (Citrus)",
+    "image": "images/products/p101.jpg?v=1770958222148",
+    "path": null,
+    "exists": false,
+    "sha256": null
+  },
+  {
+    "id": "p102",
+    "title": "Coconut Conditioner",
+    "image": "images/products/p102.jpg?v=1770958222178",
+    "path": null,
+    "exists": false,
+    "sha256": null
+  },
+  {
+    "id": "p103",
+    "title": "Argan Repair Oil",
+    "image": "images/products/pp_pin_p103_yk1zyw.png?v=1770958222189",
+    "path": null,
+    "exists": false,
+    "sha256": null
+  },
+  {
+    "id": "p104",
+    "title": "Styling Foam Light Hold",
+    "image": "images/products/p104.jpg?v=1770958222202",
+    "path": null,
+    "exists": false,
+    "sha256": null
+  },
+  {
+    "id": "p105",
+    "title": "Keratin Repair Serum",
+    "image": "images/products/pp_pin_p105_9on448.png?v=1770958222624",
+    "path": null,
+    "exists": false,
+    "sha256": null
+  },
+  {
+    "id": "p106",
+    "title": "Sea Minerals Conditioner",
+    "image": "images/products/p106.jpg?v=1770958222639",
+    "path": null,
+    "exists": false,
+    "sha256": null
+  },
+  {
+    "id": "p107",
+    "title": "Salon Finishing Oil",
+    "image": "images/products/pp_pin_p107_51khjr.png?v=1770958222656",
+    "path": null,
+    "exists": false,
+    "sha256": null
+  },
+  {
+    "id": "p108",
+    "title": "Everyday Mousse",
+    "image": "images/products/p108.jpg?v=1770958222671",
+    "path": null,
+    "exists": false,
+    "sha256": null
+  },
+  {
+    "id": "p109",
+    "title": "Repair Travel Pack",
+    "image": "images/products/p109.jpg?v=1770958222675",
+    "path": null,
+    "exists": false,
+    "sha256": null
+  },
+  {
+    "id": "p110",
+    "title": "Hydrating Mask 250ml",
+    "image": "images/products/pp_pin_p110_vaixnq.png?v=1770958222722",
+    "path": null,
+    "exists": false,
+    "sha256": null
+  }
+]

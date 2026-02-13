@@ -1,0 +1,42 @@
+{
+  "name": "BlogPost",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "Blog post title"
+    },
+    "excerpt": {
+      "type": "string",
+      "description": "Short excerpt/summary"
+    },
+    "content": {
+      "type": "string",
+      "description": "Full blog post content (HTML/markdown)"
+    },
+    "image_url": {
+      "type": "string",
+      "description": "Featured image URL"
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "hair_tips",
+        "trends",
+        "products",
+        "wellness",
+        "news"
+      ],
+      "description": "Blog category"
+    },
+    "published": {
+      "type": "boolean",
+      "default": false,
+      "description": "Whether the post is published"
+    }
+  },
+  "required": [
+    "title",
+    "content"
+  ]
+}

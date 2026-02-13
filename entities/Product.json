@@ -1,0 +1,59 @@
+{
+  "name": "Product",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Product name"
+    },
+    "brand": {
+      "type": "string",
+      "description": "Product brand (e.g. Christophe Robin, Kevin Murphy)"
+    },
+    "description": {
+      "type": "string",
+      "description": "Product description"
+    },
+    "price": {
+      "type": "number",
+      "description": "Product price in AUD"
+    },
+    "compare_at_price": {
+      "type": "number",
+      "description": "Original price if on sale"
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "shampoo",
+        "conditioner",
+        "treatment",
+        "styling",
+        "colour",
+        "tools",
+        "skincare",
+        "supplements",
+        "sets"
+      ],
+      "description": "Product category"
+    },
+    "image_url": {
+      "type": "string",
+      "description": "Product image URL"
+    },
+    "in_stock": {
+      "type": "boolean",
+      "default": true,
+      "description": "Whether the product is in stock"
+    },
+    "featured": {
+      "type": "boolean",
+      "default": false,
+      "description": "Whether the product is featured"
+    }
+  },
+  "required": [
+    "name",
+    "price"
+  ]
+}

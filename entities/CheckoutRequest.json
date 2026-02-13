@@ -1,0 +1,65 @@
+{
+  "name": "CheckoutRequest",
+  "type": "object",
+  "properties": {
+    "customer_email": {
+      "type": "string"
+    },
+    "customer_name": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "product_order",
+        "service_booking"
+      ],
+      "description": "Type of checkout"
+    },
+    "items": {
+      "type": "array",
+      "description": "Cart items or service details",
+      "items": {
+        "type": "object"
+      }
+    },
+    "total_amount": {
+      "type": "number"
+    },
+    "deposit_amount": {
+      "type": "number",
+      "description": "50% upfront payment"
+    },
+    "payment_details": {
+      "type": "string",
+      "description": "Admin sets bank details here"
+    },
+    "payment_screenshot_url": {
+      "type": "string",
+      "description": "Customer uploads payment proof"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "pending_payment_details",
+        "awaiting_payment",
+        "payment_submitted",
+        "confirmed",
+        "completed",
+        "cancelled"
+      ],
+      "default": "pending_payment_details"
+    },
+    "shipping_address": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "customer_email",
+    "type",
+    "total_amount"
+  ]
+}

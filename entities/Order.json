@@ -1,0 +1,65 @@
+{
+  "name": "Order",
+  "type": "object",
+  "properties": {
+    "customer_name": {
+      "type": "string"
+    },
+    "customer_email": {
+      "type": "string"
+    },
+    "customer_phone": {
+      "type": "string"
+    },
+    "shipping_address": {
+      "type": "string"
+    },
+    "items": {
+      "type": "array",
+      "description": "Order line items",
+      "items": {
+        "type": "object",
+        "properties": {
+          "product_id": {
+            "type": "string"
+          },
+          "product_name": {
+            "type": "string"
+          },
+          "quantity": {
+            "type": "number"
+          },
+          "price": {
+            "type": "number"
+          }
+        }
+      }
+    },
+    "subtotal": {
+      "type": "number"
+    },
+    "shipping": {
+      "type": "number"
+    },
+    "total": {
+      "type": "number"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "pending",
+        "processing",
+        "shipped",
+        "delivered",
+        "cancelled"
+      ],
+      "default": "pending"
+    }
+  },
+  "required": [
+    "customer_name",
+    "customer_email",
+    "items",
+    "total"
+  ]
+}

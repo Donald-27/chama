@@ -1,0 +1,45 @@
+{
+  "name": "Service",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Service name"
+    },
+    "description": {
+      "type": "string",
+      "description": "Service description"
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "cut",
+        "colour",
+        "styling",
+        "treatment",
+        "package"
+      ],
+      "description": "Service category"
+    },
+    "price_from": {
+      "type": "number",
+      "description": "Starting price in AUD"
+    },
+    "price_to": {
+      "type": "number",
+      "description": "Maximum price in AUD"
+    },
+    "duration_minutes": {
+      "type": "number",
+      "description": "Service duration in minutes"
+    },
+    "image_url": {
+      "type": "string",
+      "description": "Service image URL"
+    }
+  },
+  "required": [
+    "name",
+    "price_from"
+  ]
+}

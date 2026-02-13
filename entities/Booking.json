@@ -1,0 +1,62 @@
+{
+  "name": "Booking",
+  "type": "object",
+  "properties": {
+    "client_name": {
+      "type": "string",
+      "description": "Client full name"
+    },
+    "client_email": {
+      "type": "string",
+      "description": "Client email"
+    },
+    "client_phone": {
+      "type": "string",
+      "description": "Client phone number"
+    },
+    "service": {
+      "type": "string",
+      "description": "Service requested"
+    },
+    "preferred_stylist": {
+      "type": "string",
+      "enum": [
+        "no_preference",
+        "chrystalla",
+        "kayla"
+      ],
+      "default": "no_preference",
+      "description": "Preferred stylist"
+    },
+    "preferred_date": {
+      "type": "string",
+      "format": "date",
+      "description": "Preferred appointment date"
+    },
+    "preferred_time": {
+      "type": "string",
+      "description": "Preferred appointment time"
+    },
+    "notes": {
+      "type": "string",
+      "description": "Additional notes or requests"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "pending",
+        "confirmed",
+        "cancelled",
+        "completed"
+      ],
+      "default": "pending",
+      "description": "Booking status"
+    }
+  },
+  "required": [
+    "client_name",
+    "client_email",
+    "service",
+    "preferred_date"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "name": "GiftVoucher",
+  "type": "object",
+  "properties": {
+    "purchaser_name": {
+      "type": "string",
+      "description": "Name of the purchaser"
+    },
+    "purchaser_email": {
+      "type": "string",
+      "description": "Purchaser email"
+    },
+    "recipient_name": {
+      "type": "string",
+      "description": "Recipient name"
+    },
+    "recipient_email": {
+      "type": "string",
+      "description": "Recipient email"
+    },
+    "amount": {
+      "type": "number",
+      "description": "Voucher amount in AUD"
+    },
+    "message": {
+      "type": "string",
+      "description": "Personal message"
+    },
+    "code": {
+      "type": "string",
+      "description": "Unique voucher code"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "active",
+        "redeemed",
+        "expired"
+      ],
+      "default": "active"
+    }
+  },
+  "required": [
+    "purchaser_name",
+    "purchaser_email",
+    "amount"
+  ]
+}
