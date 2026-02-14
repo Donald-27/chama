@@ -1,5 +1,49 @@
 [
     {
+        "id": "s0001",
+        "name": "Balayage",
+        "description": "Hand-painted balayage for natural, sun-kissed dimension.",
+        "category": "colour",
+        "price_from": 280,
+        "price_to": 280,
+        "duration_minutes": 180,
+        "image_url": "https://images.unsplash.com/photo-1517487881594-2787fef5ebf7?w=800&q=80",
+        "created_date": "2026-02-14"
+    },
+    {
+        "id": "s0002",
+        "name": "Highlights",
+        "description": "Half or full highlights to add brightness and contrast.",
+        "category": "colour",
+        "price_from": 250,
+        "price_to": 250,
+        "duration_minutes": 160,
+        "image_url": "https://images.unsplash.com/photo-1523413651479-597eb2da0ad6?w=800&q=80",
+        "created_date": "2026-02-14"
+    },
+    {
+        "id": "s0003",
+        "name": "Hair Extensions",
+        "description": "Professional hair extensions application for added length and volume.",
+        "category": "treatment",
+        "price_from": 380,
+        "price_to": 380,
+        "duration_minutes": 240,
+        "image_url": "https://images.unsplash.com/photo-1501004318641-b39e6451bec6?w=800&q=80",
+        "created_date": "2026-02-14"
+    },
+    {
+        "id": "s0004",
+        "name": "Brazilian Blow out",
+        "description": "Smoothing treatment to reduce frizz and add shine.",
+        "category": "treatment",
+        "price_from": 350,
+        "price_to": 350,
+        "duration_minutes": 150,
+        "image_url": "https://images.unsplash.com/photo-1505238680356-667803448bb6?w=800&q=80",
+        "created_date": "2026-02-14"
+    },
+    {
         "id": "s001",
         "name": "Quick Trim",
         "description": "A neat trim to refresh your shape.",
