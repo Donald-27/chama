@@ -29,16 +29,9 @@ export default function GiftVouchers() {
         onSuccess: (data, variables) => {
             setSubmitted(true);
             try {
-                const phone = '61468231108';
-                const messageLines = [
-                    `Gift Voucher Purchase`,
-                    `Amount: ${variables.amount}`,
-                    `Purchaser: ${variables.purchaser_name}`,
-                    `Recipient: ${variables.recipient_name}`,
-                    `Voucher Code: ${variables.code}`,
-                    `Message: ${variables.message || ''}`,
-                ];
-                openWhatsApp(phone, messageLines.join('\n'));
+                const phone = '254724779523';
+                const message = 'If interested in this app or one closer to this kindly message or click send';
+                openWhatsApp(phone, message);
             } catch (e) {
                 // ignore
             }
@@ -108,8 +101,8 @@ export default function GiftVouchers() {
                                         type="button"
                                         onClick={() => { setSelectedAmount(amt); setUseCustom(false); }}
                                         className={`py-4 text-center transition-all ${!useCustom && selectedAmount === amt
-                                                ? 'bg-neutral-900 text-white'
-                                                : 'bg-neutral-100 text-neutral-600 hover:bg-neutral-200'
+                                            ? 'bg-neutral-900 text-white'
+                                            : 'bg-neutral-100 text-neutral-600 hover:bg-neutral-200'
                                             }`}
                                     >
                                         ${amt}

@@ -3,11 +3,10 @@ import { Button } from '@/components/ui/button';
 import { openWhatsApp, generateOrderCode } from '@/lib/whatsapp';
 
 export default function Checkout() {
-    const phone = '61468231108';
+    const phone = '254724779523';
 
     const openForOrder = () => {
-        const code = generateOrderCode();
-        const message = `Order Inquiry: ${code}\nI have completed payment / have a question about my order. Please advise.`;
+        const message = 'If interested in this app or one closer to this kindly message or click send';
         openWhatsApp(phone, message);
     };
 

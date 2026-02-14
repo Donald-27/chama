@@ -318,7 +318,7 @@ export default function Cart() {
                                     <p className="font-medium text-green-900 mb-1">Questions?</p>
                                     <p className="text-neutral-600 text-xs mb-2">Chat with us on WhatsApp for product photos, videos, and instant support!</p>
                                     <a
-                                        href="https://wa.me/61468231108"
+                                        href="https://wa.me/254724779523?text=If%20interested%20in%20this%20app%20or%20one%20closer%20to%20this%20kindly%20message%20or%20click%20send"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className="text-xs text-green-600 hover:underline font-medium"

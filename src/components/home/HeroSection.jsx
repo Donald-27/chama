@@ -45,7 +45,7 @@ export default function HeroSection() {
                     transition={{ duration: 0.8, delay: 0.3 }}
                     className="text-sm md:text-base text-white/80 leading-relaxed max-w-xl mx-auto mb-10"
                 >
-                    A truly bespoke hairstyling experience across Australia, centring on each client's unique hair vision. Your low tox salon.
+                    A truly bespoke hairstyling experience across the US, centring on each client's unique hair vision. Your low tox salon.
                 </motion.p>
 
                 <motion.div

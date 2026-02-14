@@ -7,7 +7,7 @@
     "price": 14,
     "compare_at_price": 18,
     "category": "shampoo",
-    "image_url": "/images/products/p001.jpg",
+    "image_url": "https://pixabay.com/get/gdacde5d75df1c6bef2cef87e5c241867614cda8adf2da784cb3363a37226f5e00c7e37948a753549ebfc71252e0f53bc1401fb85afd07895f7d420f88310e7b4_1280.png",
     "in_stock": true,
     "featured": true,
     "created_date": "2025-01-01"
@@ -20,7 +20,7 @@
     "price": 15.5,
     "compare_at_price": 20,
     "category": "conditioner",
-    "image_url": "/images/products/p002.jpg",
+    "image_url": "https://pixabay.com/get/gcff99f6fe3e04465a747dc737f0f0bc23b7a71387b6f58ef54e64b8d19017cc925e995d209ec5784228c77d9f601c91edb9b6bc5f3159c0dcd13d391b42a8d67_1280.jpg",
     "in_stock": true,
     "featured": false,
     "created_date": "2025-01-02"
@@ -32,7 +32,7 @@
     "description": "Adds hold and shine without stiffness.",
     "price": 12,
     "category": "styling",
-    "image_url": "/images/products/p003.jpg",
+    "image_url": "https://pixabay.com/get/gbd76dff16948744fe0a5d3edd1173e5422a361a505bcb8ff694d232eb601e6aec2ac3f2bfcab908f2c0758846cb4c1253cb1e8c883aa43c26e85b769bdda9455_1280.jpg",
     "in_stock": true,
     "featured": false,
     "created_date": "2025-01-03"
@@ -44,7 +44,7 @@
     "description": "Lightweight oil to nourish ends and add shine.",
     "price": 18,
     "category": "treatment",
-    "image_url": "/images/products/p004.jpg",
+    "image_url": "https://pixabay.com/get/g04899a66d6ae1c43936cbef61b83bd2fd80bde93b60dcefcd1a78f69717d4518c80b9c1c1a114a576b82d12f1162e7f2a021486617a240e59e4d0e1a10ba0a7d_1280.jpg",
     "in_stock": true,
     "featured": false,
     "created_date": "2025-01-04"
@@ -56,7 +56,7 @@
     "description": "Protects hair from heat styling up to 230°C.",
     "price": 11.5,
     "category": "styling",
-    "image_url": "/images/products/p005.jpg",
+    "image_url": "https://pixabay.com/get/g90ae4956f48b9868c4f3d781af961193896af1637248665dad47335fffde5c3bb69322c0ffeda56f5094d3b7cf645d4dfab56645d308ed38d14bb2c2e57eb551_1280.jpg",
     "in_stock": true,
     "featured": false,
     "created_date": "2025-01-05"
@@ -68,7 +68,7 @@
     "description": "Soothe and rebalance the scalp with natural extracts.",
     "price": 19,
     "category": "treatment",
-    "image_url": "/images/products/p006.jpg",
+    "image_url": "https://pixabay.com/get/g61a7e72ca232d1e09c057336e51e9016808224bfb078d77364504bb56310b971a924770b44210f176b7c89a0a7ddf9c1e2b2027495e4b5f966817f216e8ed90d_1280.jpg",
     "in_stock": true,
     "featured": false,
     "created_date": "2025-01-06"
@@ -80,7 +80,7 @@
     "description": "Adds long-lasting root lift and soft body.",
     "price": 10.5,
     "category": "styling",
-    "image_url": "/images/products/p007.jpg",
+    "image_url": "https://pixabay.com/get/g69ba6afb0cf1761cfa6486c61aa9d15c20fa411e586c5563ecd2492fed7d5f9cc112bd9ac9f10b257451ac4ca396a76a35ba6164049d7437b37fca5f0bd1b0a4_1280.jpg",
     "in_stock": true,
     "featured": false,
     "created_date": "2025-01-07"
@@ -92,7 +92,7 @@
     "description": "Serum to repair split ends and smooth frizz.",
     "price": 20,
     "category": "treatment",
-    "image_url": "/images/products/p008.jpg",
+    "image_url": "https://pixabay.com/get/gc774eda6b16a277207e5900ed3d8205c3be3751340129a77a8e0b4c9c4c3bcac47e2ad40785b55ab5dc60d9c0325ef96b40d1f278c91a1d552d7b78ea74f6ebc_1280.jpg",
     "in_stock": true,
     "featured": true,
     "created_date": "2025-01-08"
@@ -104,7 +104,7 @@
     "description": "Travel-size gentle shampoo for frequent wash.",
     "price": 6,
     "category": "shampoo",
-    "image_url": "/images/products/p009.jpg",
+    "image_url": "https://pixabay.com/get/ge254ddd4a7b29f5a2d2d3a4c646fe4bb10da79bd4fd893d2f327ee6db9f82f80519bb34beb3e750807b75528bebb32d8290f584195c0e79ecc5b6ff558db0495_1280.png",
     "in_stock": true,
     "featured": false,
     "created_date": "2025-01-09"
@@ -116,7 +116,7 @@
     "description": "Mini conditioner to keep hair smooth on the go.",
     "price": 6.5,
     "category": "conditioner",
-    "image_url": "/images/products/p010.jpg",
+    "image_url": "https://pixabay.com/get/g122f727700707b9b645c273a10ef281f8f40edc466fad37370ff8be387d19cd41dc311807e27893adc88726d9251c87e9e258aff6afe383f76b2da29be47c6d9_1280.jpg",
     "in_stock": true,
     "featured": false,
     "created_date": "2025-01-10"
@@ -128,7 +128,7 @@
     "description": "Removes build-up without stripping natural oils.",
     "price": 13,
     "category": "shampoo",
-    "image_url": "/images/products/p011.jpg",
+    "image_url": "https://pixabay.com/get/g0e71a4b481616fcebc4c7cad15edc3cbfbe8a8fd319f16eb2a276747ae5822e82091ef035e280a5cac9a743739f059171ad4cabeb1536f7f273fbb7a2567bc64_1280.png",
     "in_stock": true,
     "featured": false,
     "created_date": "2025-01-11"
@@ -140,7 +140,7 @@
     "description": "Supports hair repair and smoothness after treatments.",
     "price": 18.5,
     "category": "conditioner",
-    "image_url": "/images/products/p012.jpg",
+    "image_url": "https://pixabay.com/get/g9e9f0a3adeec359914cd7b45fdbf8e93c16d665e5fb5dba6035fa717711743bf9e153e3fea9a4d1de2e5476afa997b6d20155af5902d83b9193269e1b4f7b485_1280.jpg",
     "in_stock": true,
     "featured": false,
     "created_date": "2025-01-12"
@@ -152,7 +152,7 @@
     "description": "Adds beachy texture with light hold.",
     "price": 12,
     "category": "styling",
-    "image_url": "/images/products/p013.jpg",
+    "image_url": "https://pixabay.com/get/g0c08e18a65619276cfedbde26f4527f29a46737b1d917252baaa70614081827489df0578e15a26537734dddf4194f9f29bd856134e3f2c8b89c24ec14bab3814_1280.jpg",
     "in_stock": true,
     "featured": false,
     "created_date": "2025-01-13"
@@ -176,7 +176,7 @@
     "description": "Makes combing easier and reduces breakage.",
     "price": 9.5,
     "category": "styling",
-    "image_url": "/images/products/p015.jpg",
+    "image_url": "https://pixabay.com/get/g1e1b5a05f8301341821cacb825c7305d3022b5a438d8754cf5a312a127da8b193073486b4b85a3fe3667f571ec2ae5b3eaf6ca2220c038835611f3d4183e3018_1280.jpg",
     "in_stock": true,
     "featured": false,
     "created_date": "2025-01-15"
@@ -188,7 +188,7 @@
     "description": "Protects and extends vibrancy of colour-treated hair.",
     "price": 16,
     "category": "colour",
-    "image_url": "/images/products/p016.jpg",
+    "image_url": "https://pixabay.com/get/g63eb10dff4e9e5648767cae585a1e83a87dc820ae4b4a3f0ac9be12d6f4e2089bd910c67367a35073871a516a089085baf0643c0c45cfb0d5e12e07b654d622d_1280.jpg",
     "in_stock": true,
     "featured": false,
     "created_date": "2025-01-16"
@@ -200,7 +200,7 @@
     "description": "Refreshes roots between washes.",
     "price": 8,
     "category": "styling",
-    "image_url": "/images/products/p017.jpg",
+    "image_url": "https://pixabay.com/get/g4ec21563da13ed9b61f2b6c29ebb9021318253fd56e954cad250fe948f22d83fd52361e8e4b5b75511edca8767c5065d8598b75e1e30e00bbcf3e3b173481948_1280.jpg",
     "in_stock": true,
     "featured": false,
     "created_date": "2025-01-17"
@@ -212,7 +212,7 @@
     "description": "Tames frizz for smoother finish.",
     "price": 13,
     "category": "styling",
-    "image_url": "/images/products/p018.jpg",
+    "image_url": "https://pixabay.com/get/g1a23cb9376f95a35267df4dc97bd0bbc88b22bda88349bbc4585a44e9529a05a69cbcf6784523175656707a10fdd845e66e0d9bd6b5484ff54ce886a3f68ddb2_1280.jpg",
     "in_stock": true,
     "featured": false,
     "created_date": "2025-01-18"
@@ -236,7 +236,7 @@
     "description": "Mini shampoo and conditioner kit for travel.",
     "price": 12,
     "category": "sets",
-    "image_url": "/images/products/p020.jpg",
+    "image_url": "https://pixabay.com/get/g33ca79b0fdbce6f2d88763427916b1966c13890ab9cfedb1366a28faacec7faffdc08a886b93f4dcad473b74423baa15_1280.jpg",
     "in_stock": true,
     "featured": false,
     "created_date": "2025-01-20"
@@ -272,7 +272,7 @@
     "description": "Supports hair strength from within.",
     "price": 16,
     "category": "supplements",
-    "image_url": "/images/products/p023.jpg",
+    "image_url": "https://pixabay.com/get/g8c418fadb3af3c538d5e122abeba84093a7743286cac567a3a960949205037ef52340edaa89e5ecf7b6fc4e41462d05a6161172951c8c63d48067d92ba99cdff_1280.jpg",
     "in_stock": true,
     "featured": false,
     "created_date": "2025-01-23"
@@ -308,7 +308,7 @@
     "description": "Matte finish paste for textured looks.",
     "price": 10,
     "category": "styling",
-    "image_url": "/images/products/p026.jpg",
+    "image_url": "https://pixabay.com/get/g9bf5d5bd9bcfcde48f4fb62e58047ad1d9beeb10fa3d85948b5cf1a4d28233d7f7f14de29d51d217f89fa51a2f6866f37106b63f43189bc1dc92e4ff67009493_1280.jpg",
     "in_stock": true,
     "featured": false,
     "created_date": "2025-01-26"
@@ -320,7 +320,7 @@
     "description": "Detangles, hydrates and protects hair all day.",
     "price": 13.5,
     "category": "styling",
-    "image_url": "/images/products/p027.jpg",
+    "image_url": "https://pixabay.com/get/g241db60f6d27d3ab61e13a8836d7f003082cb0cd1ca26804216d1d5bc53b7398f938b31cfbfecd4b92e695e13323667dfdd3ecfa0dcc391446f6ff03afe56bb3_1280.jpg",
     "in_stock": true,
     "featured": false,
     "created_date": "2025-01-27"
@@ -344,7 +344,7 @@
     "description": "Sea-spray texture with light conditioning.",
     "price": 11,
     "category": "styling",
-    "image_url": "/images/products/p029.jpg",
+    "image_url": "https://pixabay.com/get/gbc56366e5ec9c3592689785000d71bece9e440de27921896aca8713baea4facf32436c072ed9e3562da50f2b2bf75ef2fece8a51e067934685b8238a1eafe8a3_1280.jpg",
     "in_stock": true,
     "featured": false,
     "created_date": "2025-01-29"
@@ -356,7 +356,7 @@
     "description": "Protection from UV and environmental damage.",
     "price": 12.5,
     "category": "styling",
-    "image_url": "/images/products/p030.jpg",
+    "image_url": "https://pixabay.com/get/geb4b75dcf83292fc53fd81d7cb366e3e2ac5b18ab63c0a2f1ef8eedb17dfc762998ccd7a7ec8661c3e5ee7bf4e31465e784948b03be019a7a89cb046cb20748b_1280.jpg",
     "in_stock": true,
     "featured": false,
     "created_date": "2025-01-30"
@@ -368,7 +368,7 @@
     "description": "Hydrating formula for dry, brittle hair.",
     "price": 14.5,
     "category": "shampoo",
-    "image_url": "/images/products/p031.jpg",
+    "image_url": "https://pixabay.com/get/g194f12596cdae17b27b712fb45f0e8766b15f6ef186e0cf62af757e8264327e84fa50e356460817d789e7667a608d7f4160e7c7796b21661b98b9881014aac52_1280.png",
     "in_stock": true,
     "featured": false,
     "created_date": "2025-01-31"
@@ -380,7 +380,7 @@
     "description": "Preserve shine and prevent fade for colour-treated hair.",
     "price": 16.5,
     "category": "conditioner",
-    "image_url": "/images/products/p032.jpg",
+    "image_url": "https://pixabay.com/get/gbe827f4cf8c63af3f39d10975e41369328939e80834a6dcd7f5ac0a7a4b577816bea71acb23e2f63e4fc731ff01ed7e7732f77a8389a19d02ffb5001f5b0e98e_1280.jpg",
     "in_stock": true,
     "featured": false,
     "created_date": "2025-02-01"
@@ -392,7 +392,7 @@
     "description": "Smooths and protects against humidity.",
     "price": 13,
     "category": "styling",
-    "image_url": "/images/products/p033.jpg",
+    "image_url": "https://pixabay.com/get/g3052210c86b5600b7a4c7e5f7eaf52dd9136f0818dd4d9e54b300904f5717a722c64f0416790e447653e7a74daa09433b4ab5e60c0b1ae9b781dbd5bcaed0874_1280.jpg",
     "in_stock": true,
     "featured": false,
     "created_date": "2025-02-02"
@@ -404,7 +404,7 @@
     "description": "Lightweight leave-in for daily hydration and protection.",
     "price": 15,
     "category": "conditioner",
-    "image_url": "/images/products/p034.jpg",
+    "image_url": "https://pixabay.com/get/g7e977b3c331b15921ada55df96e9bc588d2ad8cbe9d4f45071ed6f05167b085321efc1b28bbcda61678e63e176ea8de731b8b2413dcbfaf53cea11b9a75eca44_1280.jpg",
     "in_stock": true,
     "featured": false,
     "created_date": "2025-02-03"
@@ -416,7 +416,7 @@
     "description": "Strong hold clay for structured styles.",
     "price": 11,
     "category": "styling",
-    "image_url": "/images/products/p035.jpg",
+    "image_url": "https://pixabay.com/get/g706428cd45e1a62e7dfd3d94f9fd07133a02c4ca3c20ca81514b8f469af692a7262812c02a884f7095a497860410475df1b1dc1e8428ed39d905207aefd0c969_1280.jpg",
     "in_stock": true,
     "featured": false,
     "created_date": "2025-02-04"
@@ -428,7 +428,7 @@
     "description": "Daily conditioner that restores softness.",
     "price": 15,
     "category": "conditioner",
-    "image_url": "/images/products/p036.jpg",
+    "image_url": "https://pixabay.com/get/g1215fafffd7fa4dcb7814e88ba8d82da572edd66a38dbda0a4488c75f6f3d9bf2dd0f23851002067139955983af5459a2339fdcb1f8a898c5ee1fce7878ddfeb_1280.jpg",
     "in_stock": true,
     "featured": false,
     "created_date": "2025-02-05"
@@ -440,7 +440,7 @@
     "description": "Daily supplement for hair strength and growth.",
     "price": 14,
     "category": "supplements",
-    "image_url": "/images/products/p037.jpg",
+    "image_url": "https://pixabay.com/get/g7c6eba5e3164277ecd4a191d9b0a52c2d7c07a8a8352a05a2a3a6bfe119608fcee205ad6bf2236a96347c25d129fbc5ffc618dd2b0b833790d4775bdadb94092_1280.jpg",
     "in_stock": true,
     "featured": false,
     "created_date": "2025-02-06"
@@ -464,7 +464,7 @@
     "description": "Adds instant shine without weight.",
     "price": 12,
     "category": "styling",
-    "image_url": "/images/products/p039.jpg",
+    "image_url": "https://pixabay.com/get/g58745de50f712b095f7ccad9975220bb555381c6a4146ade96f186641dd80946525352ccd72926a3baa3c7e9919c0647154740914b412a06c77ec540341f2036_1280.jpg",
     "in_stock": true,
     "featured": false,
     "created_date": "2025-02-08"
@@ -488,7 +488,7 @@
     "description": "Balanced formula for daily cleansing.",
     "price": 13,
     "category": "shampoo",
-    "image_url": "/images/products/p041.jpg",
+    "image_url": "https://pixabay.com/get/gd5777d9a2e5609fa61bd344e0edfb675a67fe9e4763f5c88149469be0aec3b01a60896be9a47490b5c7f6edacd259615ed9ac3d1addb18ce3954e7ce6bb98a57_1280.png",
     "in_stock": true,
     "featured": false,
     "created_date": "2025-02-10"
@@ -524,7 +524,7 @@
     "description": "Sulfate-free smoothing shampoo for frizz control.",
     "price": 14,
     "category": "shampoo",
-    "image_url": "/images/products/p044.jpg",
+    "image_url": "https://pixabay.com/get/g31eac86a5044dc2b9cddf66c32fac9ba9b21330ee0a1cbe7f107757366173af03c2f6ab49123e194e2b0fcc10207d2a5be64d00919621d3b57995647b40f44f4_1280.png",
     "in_stock": true,
     "featured": false,
     "created_date": "2025-02-13"
@@ -536,7 +536,7 @@
     "description": "Matte paste for short textured cuts.",
     "price": 10.5,
     "category": "styling",
-    "image_url": "/images/products/p045.jpg",
+    "image_url": "https://pixabay.com/get/ge94322e54ac60a7f1b8c383c811a3fb0a0fef151b2484c66aa54d49acd47c818b8c7123022657d861b4e9d5f745a8f65f14977ce25ff1c5cd3edef3fcef484a6_1280.jpg",
     "in_stock": true,
     "featured": false,
     "created_date": "2025-02-14"
@@ -572,7 +572,7 @@
     "description": "Strengthens hair and reduces breakage.",
     "price": 16,
     "category": "conditioner",
-    "image_url": "/images/products/p048.jpg",
+    "image_url": "https://pixabay.com/get/g46f74dd6c73d6c8d52e8c0d8a3248fb57ed8011a1b27c03aaf318a51f45bb2fe2fce9e6f51dc1c9040502e73263e4b2c3d724e5624697736a01d0df948c9f9b8_1280.jpg",
     "in_stock": true,
     "featured": false,
     "created_date": "2025-02-17"
@@ -596,7 +596,7 @@
     "description": "Shampoo and mask for damaged hair repair.",
     "price": 32,
     "category": "sets",
-    "image_url": "/images/products/p050.jpg",
+    "image_url": "https://pixabay.com/get/gc4d585d38b282f07efc671cca8d375b4912ee34f9e69cc7a887346f9d9093310456948bb1d2b833e0a7ea055b5d843695dd4c573bac713efffe016e1193f1afa_1280.jpg",
     "in_stock": true,
     "featured": true,
     "created_date": "2025-02-19"
@@ -608,7 +608,7 @@
     "description": "Tear-free, gentle shampoo for kids.",
     "price": 8.5,
     "category": "shampoo",
-    "image_url": "/images/products/p051.jpg",
+    "image_url": "https://pixabay.com/get/g5757b0fd40944add8d931821ab8e01d69243929e8d14ccd9a009199182bc4a7286181fde5c9b48ff54c3a75e35641d6bb9d2460de8ff08383c93e3319211802c_1280.png",
     "in_stock": true,
     "featured": false,
     "created_date": "2025-02-20"
@@ -632,7 +632,7 @@
     "description": "Low shine paste for texture and separation.",
     "price": 10,
     "category": "styling",
-    "image_url": "/images/products/p053.jpg",
+    "image_url": "https://pixabay.com/get/gfb4078e74270077bd638cb60b969f42a625f44fde750592483741cf2f2366ba34971b7ec6aef1518abea40c094c87ce73944bccef888bf71de83b210e36ffb9e_1280.jpg",
     "in_stock": true,
     "featured": false,
     "created_date": "2025-02-22"
@@ -644,7 +644,7 @@
     "description": "Shampoo and conditioner to protect colour vibrancy.",
     "price": 28,
     "category": "sets",
-    "image_url": "/images/products/p054.jpg",
+    "image_url": "https://pixabay.com/get/g5fb40dc697169f4e804b6190023f314c025a2d17bf6088cdb79534b7ae93eb5c5c03aab297e874ae55afdbcac353ddaeef8079b9d986e435d2bed75213ea478a_1280.jpg",
     "in_stock": true,
     "featured": true,
     "created_date": "2025-02-23"
@@ -668,7 +668,7 @@
     "description": "Gives grit and texture for undone styles.",
     "price": 11,
     "category": "styling",
-    "image_url": "/images/products/p056.jpg",
+    "image_url": "https://pixabay.com/get/gd67a0ba6257a660144c25701adb06bbbe90b0aae5447c294d49304daa07983d7ec5a32fefd4c9dcaa8a408d0c6d2402faa8bd6aafb778233c92ffa5c4b3e4f9f_1280.jpg",
     "in_stock": true,
     "featured": false,
     "created_date": "2025-02-25"
@@ -680,7 +680,7 @@
     "description": "Extra volume bottle for long lasting hydration.",
     "price": 22,
     "category": "conditioner",
-    "image_url": "/images/products/p057.jpg",
+    "image_url": "https://pixabay.com/get/g6e2cc3883f67dcaa22c3fdf11b0def9a0720364e9430676a84f8dead81ac4afa5ae60b30b94bcf9d6d2537052be0da341583686bca48324bb9c9559923550c9e_1280.jpg",
     "in_stock": true,
     "featured": true,
     "created_date": "2025-02-26"
@@ -716,7 +716,7 @@
     "description": "Light control for everyday styles.",
     "price": 9.5,
     "category": "styling",
-    "image_url": "/images/products/p060.jpg",
+    "image_url": "https://pixabay.com/get/g952bdbe8eeb3266efae80d38631a16b9f6b354a74b87d8e54ea19c85788b4c759a5eb5563952984f0e6794e8f5ccf98640e0c936efa0389e1906af8446a27840_1280.jpg",
     "in_stock": true,
     "featured": false,
     "created_date": "2025-03-01"
@@ -728,7 +728,7 @@
     "description": "Soothing formula for sensitive scalps.",
     "price": 14,
     "category": "shampoo",
-    "image_url": "/images/products/p061.jpg",
+    "image_url": "https://pixabay.com/get/gf043ce4fef6d59f7251d95a0c69d8189300d0522ef5b3cc8bffa5a15c29b1752efead3f88df234bef63cc0f698d1e51187246496a1105583665a78241c62eeea_1280.png",
     "in_stock": true,
     "featured": false,
     "created_date": "2025-03-02"
@@ -752,7 +752,7 @@
     "description": "Spray for soft waves and texture.",
     "price": 10,
     "category": "styling",
-    "image_url": "/images/products/p063.jpg",
+    "image_url": "https://pixabay.com/get/g326c0c7dc27a1338acaa88e567e9318c5ea5590d241fc3a16d0598b28d761846a63e210f5ee17c408f9f0f9d467a18ba34754936f71797a051ff9bc2e96e8723_1280.jpg",
     "in_stock": true,
     "featured": false,
     "created_date": "2025-03-04"
@@ -764,7 +764,7 @@
     "description": "Balanced care for normal to dry hair.",
     "price": 12.5,
     "category": "conditioner",
-    "image_url": "/images/products/p064.jpg",
+    "image_url": "https://pixabay.com/get/g5c99a4d414cc31c30deab7ed6eed278cb658beeab71529d60edf1b0459f5dcf1be14837a9363119e0197f389914a863648a9f048f9300a10685c460b672e5e36_1280.jpg",
     "in_stock": true,
     "featured": false,
     "created_date": "2025-03-05"
@@ -776,7 +776,7 @@
     "description": "Nutritional support for soft, healthy hair.",
     "price": 13.5,
     "category": "supplements",
-    "image_url": "/images/products/p065.jpg",
+    "image_url": "https://pixabay.com/get/g4f22f09cae305ccf8b6fa0d818c9677f2ad97d976354c0edee304a6cbd96b47992ac2003141e83cfad444f45930597d82e613603ea0de2d74ad85cbaa9ab91cb_1280.jpg",
     "in_stock": true,
     "featured": false,
     "created_date": "2025-03-06"
@@ -812,7 +812,7 @@
     "description": "Lightweight daily shampoo for all hair types.",
     "price": 13,
     "category": "shampoo",
-    "image_url": "/images/products/p068.jpg",
+    "image_url": "https://pixabay.com/get/g38bab898139953818105ca99208d48ac71686b1eb12dddde1f7a0abc126e799471372364fd273ce0bd867f01d3623cb50a4f2f8700c9db2d94818b37d4783a6a_1280.png",
     "in_stock": true,
     "featured": false,
     "created_date": "2025-03-09"
@@ -824,7 +824,7 @@
     "description": "Adds body and lift to fine hair.",
     "price": 11,
     "category": "styling",
-    "image_url": "/images/products/p069.jpg",
+    "image_url": "https://pixabay.com/get/g4f6b57ea97602706fce6b4b4933541ffd7ae754b809b430c123ef620bb9e5b5ef0e35ebec65a00c28dfb44e0570d09a224841022c39353e1cd9fbfb2b2742ecb_1280.jpg",
     "in_stock": true,
     "featured": false,
     "created_date": "2025-03-10"
@@ -848,7 +848,7 @@
     "description": "Light balm to detangle and nourish daily.",
     "price": 12.5,
     "category": "conditioner",
-    "image_url": "/images/products/p071.jpg",
+    "image_url": "https://pixabay.com/get/gcfb2ca3a5a9046331b6138f48230ffaa3baeb2f38f946ef1cb7b541a92e21e9f3d1132643f06202bc87704ed81589572b589473d11cc6075f505cd81d640f4d9_1280.jpg",
     "in_stock": true,
     "featured": false,
     "created_date": "2025-03-12"
@@ -860,7 +860,7 @@
     "description": "Adds volume and texture for lived-in styles.",
     "price": 11.5,
     "category": "styling",
-    "image_url": "/images/products/p072.jpg",
+    "image_url": "https://pixabay.com/get/g7d57a975065232d0465c13724ca07dc0e2e7fedfdce445d951912f6a74cedcfa1c81b11c24b0a07ba52924e857787f3e930f77230068ae32771334da2306780f_1280.jpg",
     "in_stock": true,
     "featured": false,
     "created_date": "2025-03-13"
@@ -872,7 +872,7 @@
     "description": "Support after keratin and smoothing treatments.",
     "price": 17,
     "category": "conditioner",
-    "image_url": "/images/products/p073.jpg",
+    "image_url": "https://pixabay.com/get/g32e90dc9dc43e131264da8a3895e29ec6852dedd59f9ff19f31155da545e918e50421572d06a3083f7e74080091ac17137e1b0395016cb35cae3d1f7fcfc6462_1280.jpg",
     "in_stock": true,
     "featured": true,
     "created_date": "2025-03-14"
@@ -884,7 +884,7 @@
     "description": "Light milk to protect from styling heat and humidity.",
     "price": 13,
     "category": "styling",
-    "image_url": "/images/products/p074.jpg",
+    "image_url": "https://pixabay.com/get/gda8f68313ab5508b544da4421311e5eeaeb6ee35680e741401ba29937e4fe207efe688716196b2ae7edc94527b2af500f488ec54a17b5f1aa890e3c8728112ec_1280.jpg",
     "in_stock": true,
     "featured": false,
     "created_date": "2025-03-15"
@@ -896,7 +896,7 @@
     "description": "Daily supplement to support hair strength and growth.",
     "price": 15.5,
     "category": "supplements",
-    "image_url": "/images/products/p075.jpg",
+    "image_url": "https://pixabay.com/get/g50f6c82165cd943a370d498c0721756fe7f4ddd27d107f5e2fcb0f7a99b3168b0e74ef22336b1e244e0d1f21be5c7fecd7c7428f9c741a60245008b80831a525_1280.jpg",
     "in_stock": true,
     "featured": false,
     "created_date": "2025-03-16"
@@ -932,7 +932,7 @@
     "description": "Economy-sized hydrating shampoo for families.",
     "price": 28,
     "category": "shampoo",
-    "image_url": "/images/products/p078.jpg",
+    "image_url": "https://pixabay.com/get/g73f3ea2f07e9532cb91e4cce32eff687243a5ade5ca32ec180b45f1a7baafe462bc45a19feec67ee870ea09768c14278a63579e656d80a213ee12c351f1be9da_1280.png",
     "in_stock": true,
     "featured": true,
     "created_date": "2025-03-19"
@@ -944,7 +944,7 @@
     "description": "Strengthens and repairs weakened hair fibers.",
     "price": 18,
     "category": "conditioner",
-    "image_url": "/images/products/p079.jpg",
+    "image_url": "https://pixabay.com/get/g24796d406c6751799718686534135847dfda6e548ed1841d2a446c83411e78c65d7c89c04542c10b04e251d402a56f45894a9ecffe0a650cb0a43c306db479dd_1280.jpg",
     "in_stock": true,
     "featured": false,
     "created_date": "2025-03-20"
@@ -968,7 +968,7 @@
     "description": "Medium-hold gel with no crunchy finish.",
     "price": 9,
     "category": "styling",
-    "image_url": "/images/products/p081.jpg",
+    "image_url": "https://pixabay.com/get/gf40651d44289f70f5e9bf8dc0c86c6f57bfc6e0bf8cc05fd77f288ff3eab54037a1bdbfc2ffd39a0e3294f5e8b0e57f0962d46eedea42dffc2e7c16b4f814d01_1280.jpg",
     "in_stock": true,
     "featured": false,
     "created_date": "2025-03-22"
@@ -992,7 +992,7 @@
     "description": "Firm hold paste for sculpted styles.",
     "price": 12,
     "category": "styling",
-    "image_url": "/images/products/p083.jpg",
+    "image_url": "https://pixabay.com/get/gb06bea283f3cf204c5a0e05755a54d67269af09b6158a6deb9f0543f8a9295a8045accba506f34f2deb43fe4043e69cead39b16cdddcbfa34dee2365aaae90e4_1280.jpg",
     "in_stock": true,
     "featured": false,
     "created_date": "2025-03-24"
@@ -1004,7 +1004,7 @@
     "description": "Light conditioner for daily moisture balance.",
     "price": 13,
     "category": "conditioner",
-    "image_url": "/images/products/p084.jpg",
+    "image_url": "https://pixabay.com/get/gc1aaf51533647c059f10e4a6f777a80b9c5041b1a06703fe1cb12d9009f46ffdc1803aeaf81df19873d96542913fe25838f01a3d2d1ac5c91a8f1a1636b984c2_1280.jpg",
     "in_stock": true,
     "featured": false,
     "created_date": "2025-03-25"
@@ -1028,7 +1028,7 @@
     "description": "Heat protection for styling tools.",
     "price": 12,
     "category": "styling",
-    "image_url": "/images/products/p086.jpg",
+    "image_url": "https://pixabay.com/get/g02b4f30c132b1a991df998b51612873c1784ad1576765a3f34fb7aaf7968f727827201ba06632b58a1d80a0d9e08931f3e8a459140c0f60080d48baf2cbfff78_1280.jpg",
     "in_stock": true,
     "featured": false,
     "created_date": "2025-03-27"
@@ -1040,7 +1040,7 @@
     "description": "Adds body and spring to curls and waves.",
     "price": 11,
     "category": "styling",
-    "image_url": "/images/products/p087.jpg",
+    "image_url": "https://pixabay.com/get/ga020c7dc0b42b07ecb907dc451824aaffd0926d8e4e9a511611648d502ae5ae7181717861a3675bf27d5fbb445409361257830361ea0dbcb806bb9fc5856d943_1280.jpg",
     "in_stock": true,
     "featured": false,
     "created_date": "2025-03-28"
@@ -1076,7 +1076,7 @@
     "description": "Ocean mineral-infused shampoo for hydration.",
     "price": 15,
     "category": "shampoo",
-    "image_url": "/images/products/p090.jpg",
+    "image_url": "https://pixabay.com/get/g04082fe13e06190089f67bd58da65a58d3b0d4e3c1f86cf3fa18901e3ebb13df74fca1368c1cdf269f5c5eed4ac61420f3181fc1ea5156a75ecf536e92114043_1280.png",
     "in_stock": true,
     "featured": true,
     "created_date": "2025-03-31"
@@ -1088,7 +1088,7 @@
     "description": "Large size repair conditioner for salons and home.",
     "price": 30,
     "category": "conditioner",
-    "image_url": "/images/products/p091.jpg",
+    "image_url": "https://pixabay.com/get/g5407a2919f7643ef79e4fba0e13b32d45214ccf8e389c98a7000756085731f5291b8fc01c6f3ca8d99ddbc8167aefc82484456ea24d653b09ed28b2f47d4b495_1280.jpg",
     "in_stock": true,
     "featured": true,
     "created_date": "2025-04-01"
@@ -1100,7 +1100,7 @@
     "description": "Matte paste with salt texture for beachy looks.",
     "price": 11.5,
     "category": "styling",
-    "image_url": "/images/products/p092.jpg",
+    "image_url": "https://pixabay.com/get/ge777957b5f5af1adb63006aeb5a1c39b58c626376aa890a435048dafb7ae892dbc57dcc4766699ec40bfff764e591d2fab46634d86a605296dc8ea72332b5e4b_1280.jpg",
     "in_stock": true,
     "featured": false,
     "created_date": "2025-04-02"
@@ -1148,7 +1148,7 @@
     "description": "Adds lasting body and bounce.",
     "price": 10,
     "category": "styling",
-    "image_url": "/images/products/p096.jpg",
+    "image_url": "https://pixabay.com/get/g396720b837645cd05d1fb1eb1c48dcb87e1e45b494b315c4f017703fc0bfe6ca38581a60cd4c31a547996c67299691965932f8ffa97f2f25378cbec1254d720d_1280.jpg",
     "in_stock": true,
     "featured": false,
     "created_date": "2025-04-06"
@@ -1184,7 +1184,7 @@
     "description": "Light glaze for glossy salon finishes.",
     "price": 13,
     "category": "styling",
-    "image_url": "/images/products/p099.jpg",
+    "image_url": "https://pixabay.com/get/g5ba949cc2d6f3b6763386624608e321046ca6cf5c5d51133ff64085af9662a4042a22b3f88fd476caf5e2501979f514637201023736d70b27c60b7938eff897b_1280.jpg",
     "in_stock": true,
     "featured": false,
     "created_date": "2025-04-09"
@@ -1208,7 +1208,7 @@
     "description": "Citrus-scented shampoo for refreshed hair.",
     "price": 13.5,
     "category": "shampoo",
-    "image_url": "/images/products/p101.jpg",
+    "image_url": "https://pixabay.com/get/g6197b1c61ce9b138152c44f7b29bf68b20873c55ce42316fecd1a5276cc12af042b410e8ffe2fe2db6bd43a2f64756ddcb1eb1246e593c9eb9fd1569de382268_1280.jpg",
     "in_stock": true,
     "featured": false,
     "created_date": "2025-04-11"
@@ -1220,7 +1220,7 @@
     "description": "Coconut-scented conditioner for softness and shine.",
     "price": 14,
     "category": "conditioner",
-    "image_url": "/images/products/p102.jpg",
+    "image_url": "https://pixabay.com/get/g481702ae95ceaab3a32121ddcdc30bedccb211e99c943aa3c06a157fab1c62eed00a07076eb7459514ffbea119a92cbd02919aacacfa5a1b3de12809a9f287e4_1280.jpg",
     "in_stock": true,
     "featured": false,
     "created_date": "2025-04-12"
@@ -1244,7 +1244,7 @@
     "description": "Adds bounce and light hold for natural movement.",
     "price": 10.5,
     "category": "styling",
-    "image_url": "/images/products/p104.jpg",
+    "image_url": "https://pixabay.com/get/gc50ba313d7d0b17786c5bc8b2e370800566798821cb5d25e740107e06900d4741330d2ccbc9d588475472498bab6856077c30432a0ef5ed2a8f1db3bdaa5705d_1280.jpg",
     "in_stock": true,
     "featured": false,
     "created_date": "2025-04-14"
@@ -1268,7 +1268,7 @@
     "description": "Mineral-rich conditioner for luminous shine.",
     "price": 16.5,
     "category": "conditioner",
-    "image_url": "/images/products/p106.jpg",
+    "image_url": "https://pixabay.com/get/g6eae3c670e3b2dd2de15fd3ace6df97c5a41b3392785c809c8f754a026b72f22dc09872b7fdf2d1c9878723e0364a10d903d63687bbc59fde33f149fcf56d539_1280.jpg",
     "in_stock": true,
     "featured": false,
     "created_date": "2025-04-16"
@@ -1292,7 +1292,7 @@
     "description": "Lightweight foam for daily styling and lift.",
     "price": 10,
     "category": "styling",
-    "image_url": "/images/products/p108.jpg",
+    "image_url": "https://pixabay.com/get/ge3f8af7daa6358a1f20752aaf90b2c3872e8a5f7291b994594d5188230b7886df7b91503e0f284b6f3fe77b9d353983c3bd172f5442f03d9aaa1b0d1d42b17fe_1280.jpg",
     "in_stock": true,
     "featured": false,
     "created_date": "2025-04-18"
@@ -1304,7 +1304,7 @@
     "description": "Travel-sized repair kit for weekend trips.",
     "price": 12,
     "category": "sets",
-    "image_url": "/images/products/p109.jpg",
+    "image_url": "https://pixabay.com/get/gc570f0f8c21164c3f1db2e63787cad54b64c827a8e1564aab0ccfd8eeb2bf0596c7341a55dd0e5152995e5a25f813cdbb01c7774240ebf0e21840332824e6abd_1280.jpg",
     "in_stock": true,
     "featured": false,
     "created_date": "2025-04-19"

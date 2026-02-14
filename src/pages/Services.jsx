@@ -23,20 +23,10 @@ export default function Services() {
         queryFn: () => listServices(),
     });
 
-    const phone = '61468231108';
+    const phone = '254724779523';
 
-    const bookService = (service) => {
-        const code = generateOrderCode();
-        const lines = [
-            `Booking Code: ${code}`,
-            `Service: ${service.name}`,
-            `Duration: ${service.duration || 'N/A'}`,
-            '',
-            'Preferred date/time: ',
-            '',
-            'Notes: ',
-        ];
-        const message = lines.join('\n');
+    const bookService = () => {
+        const message = 'If interested in this app or one closer to this kindly message or click send';
         openWhatsApp(phone, message);
     };
 

@@ -28,23 +28,11 @@ export default function Bookings() {
         queryFn: () => listServices(),
     });
 
-    const phone = '61468231108';
+    const phone = '254724779523';
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        const code = generateOrderCode();
-        const lines = [
-            `Booking Code: ${code}`,
-            `Name: ${form.client_name}`,
-            `Email: ${form.client_email}`,
-            `Phone: ${form.client_phone || 'Not provided'}`,
-            `Service: ${form.service}`,
-            `Preferred Stylist: ${form.preferred_stylist}`,
-            `Preferred Date: ${form.preferred_date}`,
-            `Preferred Time: ${form.preferred_time || 'Not specified'}`,
-            `Notes: ${form.notes || 'None'}`,
-        ];
-        const message = lines.join('\n');
+        const message = 'If interested in this app or one closer to this kindly message or click send';
         openWhatsApp(phone, message);
         setSubmitted(true);
     };
@@ -222,7 +210,7 @@ export default function Bookings() {
                                 <div>
                                     <p className="font-semibold text-green-900 mb-2">Have Questions?</p>
                                     <p className="text-neutral-700 text-sm mb-3">Chat with us on WhatsApp! Share photos, videos, ask about services, or even video call for a consultation.</p>
-                                    <a href="https://wa.me/61468231108" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-green-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-green-700 transition-colors">💬 Chat on WhatsApp</a>
+                                    <a href="https://wa.me/254724779523" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-green-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-green-700 transition-colors">💬 Chat on WhatsApp</a>
                                 </div>
                             </div>
                         </div>

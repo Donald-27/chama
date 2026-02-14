@@ -3,20 +3,20 @@ import { motion } from 'framer-motion';
 
 const team = [
     {
-        name: 'Chrystalla Dimarelis',
+        name: 'chumbinn',
         role: 'Co-Owner & Stylist',
         bio: 'Industry famous for innovative techniques and an unwavering commitment to your hair health.',
         image: 'https://images.unsplash.com/photo-1580618672591-eb180b1a973f?w=600&q=80'
     },
     {
-        name: 'Kayla Tzavellas',
+        name: 'alisha',
         role: 'Co-Owner & Stylist',
         bio: 'Celebrated for her expertise in precision cutting, colour artistry, and transformative styling.',
         image: '/images/kayla.png'
     }
     ,
     {
-        name: 'Hannah-G',
+        name: 'donn',
         role: 'Co-Owner & Stylist',
         bio: 'Known for warm client care, creative colour blends, and precision finishing touches.',
         image: '/images/hannah.png'

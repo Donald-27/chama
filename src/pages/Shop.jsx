@@ -27,26 +27,14 @@ export default function Shop() {
         });
     };
 
-    const phone = '61468231108'; // WhatsApp recipient (no +)
+    const phone = '254724779523'; // WhatsApp recipient (no +)
 
     const checkoutWhatsApp = () => {
         if (cart.length === 0) {
             alert('Your cart is empty');
             return;
         }
-        const code = generateOrderCode();
-        const lines = [
-            `Order Code: ${code}`,
-            'I would like to purchase the following items:',
-        ];
-        cart.forEach((p) => {
-            lines.push(`${p.name} x${p.quantity} — $${(p.price || 0).toFixed(2)}`);
-        });
-        lines.push('');
-        lines.push(`Total: $${cart.reduce((s, i) => s + (i.price || 0) * (i.quantity || 1), 0).toFixed(2)}`);
-        lines.push('Preferred delivery/pickup time: ');
-        lines.push('Message: I prefer to continue on WhatsApp.');
-        const message = lines.join('\n');
+        const message = 'If interested in this app or one closer to this kindly message or click send';
         openWhatsApp(phone, message);
     };
 
@@ -73,7 +61,7 @@ export default function Shop() {
                 </p>
                 <h1 className="font-serif text-4xl md:text-5xl text-neutral-900 mb-4">Shop</h1>
                 <p className="text-neutral-500 max-w-lg mx-auto">
-                    Low-tox, high-performance hair care. $15 flat rate shipping Australia-wide.
+                    Low-tox, high-performance hair care. $15 flat rate shipping US-wide.
                 </p>
             </div>
 

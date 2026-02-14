@@ -1,6 +1,6 @@
 // Helper to open WhatsApp with a prefilled message.
 export function buildWhatsAppUrl(phoneNumber, message) {
-    // phoneNumber should be numeric international e.g. 61468231108
+    // phoneNumber should be numeric international e.g. 254724779523 (country code then number, no +)
     const encoded = encodeURIComponent(message);
     // Use wa.me link
     return `https://wa.me/${phoneNumber}?text=${encoded}`;
