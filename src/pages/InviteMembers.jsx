@@ -270,10 +270,10 @@ export default function InviteMembers() {
 
                                 <Button
                                     onClick={() => addMemberMutation.mutate()}
-                                    disabled={!email || !fullName || addMemberMutation.isPending}
+                                    disabled={!email || !fullName || addMemberMutation.isLoading}
                                     className="w-full h-12 rounded-xl bg-cyan-500 hover:bg-cyan-600"
                                 >
-                                    {addMemberMutation.isPending ? 'Adding...' : 'Add Member'}
+                                    {addMemberMutation.isLoading ? 'Adding...' : 'Add Member'}
                                 </Button>
                             </div>
                         </div>

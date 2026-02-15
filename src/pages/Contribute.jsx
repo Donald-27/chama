@@ -271,10 +271,10 @@ export default function Contribute() {
                             </Button>
                             <Button
                                 onClick={() => contributeMutation.mutate()}
-                                disabled={contributeMutation.isPending || (paymentMethod === 'mpesa' && !phoneNumber)}
+                                disabled={contributeMutation.isLoading || (paymentMethod === 'mpesa' && !phoneNumber)}
                                 className="flex-1 h-14 rounded-xl bg-cyan-500 hover:bg-cyan-600"
                             >
-                                {contributeMutation.isPending ? 'Processing...' : 'Pay Now'}
+                                {contributeMutation.isLoading ? 'Processing...' : 'Pay Now'}
                             </Button>
                         </div>
                     </div>

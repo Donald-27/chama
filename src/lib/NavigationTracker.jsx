@@ -31,10 +31,13 @@ export default function NavigationTracker() {
             pageName = matchedKey || null;
         }
 
-        if (isAuthenticated && pageName) {
-            base44.appLogs.logUserInApp(pageName).catch(() => {
+        if (isAuthenticated && pageName && base44 && base44.appLogs && typeof base44.appLogs.logUserInApp === 'function') {
+            try {
+                const res = base44.appLogs.logUserInApp(pageName);
+                if (res && typeof res.catch === 'function') res.catch(() => { });
+            } catch (e) {
                 // Silently fail - logging shouldn't break the app
-            });
+            }
         }
     }, [location, isAuthenticated, Pages, mainPageKey]);
 

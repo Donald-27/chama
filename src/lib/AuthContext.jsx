@@ -22,8 +22,69 @@ export const AuthProvider = ({ children }) => {
             const init = async () => {
                 try {
                     setIsLoadingAuth(true);
+                    // If the app was just redirected back from an OAuth provider,
+                    // the auth tokens may be present in the URL fragment. Use
+                    // getSessionFromUrl to let supabase-js parse and store the session.
+                    try {
+                        if (typeof window !== 'undefined' && (window.location.href.includes('access_token=') || window.location.href.includes('provider=') || window.location.href.includes('refresh_token='))) {
+                            // Parse session from URL and store it in the client
+                            // (wrap in try/catch - non-fatal if not present)
+                            // supabase-js v2 exposes getSessionFromUrl
+                            // eslint-disable-next-line no-unused-vars
+                            await supabase.auth.getSessionFromUrl();
+
+                            // Clean the URL to remove tokens/fragments
+                            try {
+                                const url = new URL(window.location.href);
+                                url.hash = '';
+                                window.history.replaceState({}, document.title, url.toString());
+                            } catch (e) {
+                                // ignore URL cleanup failures
+                            }
+                        }
+                    } catch (e) {
+                        // Non-fatal; continue to fetch session normally
+                    }
+
                     const { data } = await supabase.auth.getSession();
                     const session = data?.session ?? null;
+                    if (session?.user) {
+                        setUser(session.user);
+                        setIsAuthenticated(true);
+                    } else {
+                        // No supabase session. If a local PIN-based session exists,
+                        // restore a minimal local session so PIN-login works as an
+                        // alternative auth method.
+                        try {
+                            const localSession = typeof window !== 'undefined' && window.localStorage.getItem('chama_local_session');
+                            if (localSession) {
+                                const profileJson = window.localStorage.getItem('chama_profile');
+                                const profile = profileJson ? JSON.parse(profileJson) : { id: 'local-pin' };
+                                setUser(profile);
+                                setIsAuthenticated(true);
+                            } else {
+                                setUser(null);
+                                setIsAuthenticated(false);
+                            }
+                        } catch (e) {
+                            setUser(null);
+                            setIsAuthenticated(false);
+                        }
+                    }
+                } catch (e) {
+                    console.error('Supabase session init failed', e);
+                } finally {
+                    setIsLoadingAuth(false);
+                    // When using Supabase-only auth, there are no "public settings"
+                    // checks to perform, so mark public settings loading as finished
+                    setIsLoadingPublicSettings(false);
+                }
+            };
+            init();
+
+            // Subscribe to auth state changes and keep a reference to the subscription
+            try {
+                const { data } = supabase.auth.onAuthStateChange((event, session) => {
                     if (session?.user) {
                         setUser(session.user);
                         setIsAuthenticated(true);
@@ -31,25 +92,12 @@ export const AuthProvider = ({ children }) => {
                         setUser(null);
                         setIsAuthenticated(false);
                     }
-                } catch (e) {
-                    console.error('Supabase session init failed', e);
-                } finally {
-                    setIsLoadingAuth(false);
-                }
-            };
-            init();
-
-            const { data: { subscription } } = supabase.auth.onAuthStateChange((event, session) => {
-                if (session?.user) {
-                    setUser(session.user);
-                    setIsAuthenticated(true);
-                } else {
-                    setUser(null);
-                    setIsAuthenticated(false);
-                }
-            });
-
-            return () => subscription?.unsubscribe && subscription.unsubscribe();
+                });
+                const subscription = data?.subscription;
+                return () => subscription?.unsubscribe?.();
+            } catch (e) {
+                // If subscription setup fails, just ignore — it is non-fatal
+            }
         }
 
         // If no Base44 app ID is configured (or it's the string 'null'), skip Base44 app checks
@@ -80,7 +128,9 @@ export const AuthProvider = ({ children }) => {
             });
 
             try {
-                const publicSettings = await appClient.get(`/prod/public-settings/by-id/${appParams.appId}`);
+                const resp = await appClient.get(`/prod/public-settings/by-id/${appParams.appId}`);
+                // axios-style clients return { data, status, ... }
+                const publicSettings = resp?.data ?? resp;
                 setAppPublicSettings(publicSettings);
 
                 // If we got the app public settings successfully, check if user is authenticated
@@ -94,30 +144,22 @@ export const AuthProvider = ({ children }) => {
             } catch (appError) {
                 console.error('App state check failed:', appError);
 
+                // Normalize axios/fetch error shapes
+                const status = appError?.response?.status ?? appError?.status ?? null;
+                const data = appError?.response?.data ?? appError?.data ?? null;
+
                 // Handle app-level errors
-                if (appError.status === 403 && appError.data?.extra_data?.reason) {
-                    const reason = appError.data.extra_data.reason;
+                if (status === 403 && data?.extra_data?.reason) {
+                    const reason = data.extra_data.reason;
                     if (reason === 'auth_required') {
-                        setAuthError({
-                            type: 'auth_required',
-                            message: 'Authentication required'
-                        });
+                        setAuthError({ type: 'auth_required', message: 'Authentication required' });
                     } else if (reason === 'user_not_registered') {
-                        setAuthError({
-                            type: 'user_not_registered',
-                            message: 'User not registered for this app'
-                        });
+                        setAuthError({ type: 'user_not_registered', message: 'User not registered for this app' });
                     } else {
-                        setAuthError({
-                            type: reason,
-                            message: appError.message
-                        });
+                        setAuthError({ type: reason, message: appError.message || 'Access denied' });
                     }
                 } else {
-                    setAuthError({
-                        type: 'unknown',
-                        message: appError.message || 'Failed to load app'
-                    });
+                    setAuthError({ type: 'unknown', message: (appError?.message) || 'Failed to load app' });
                 }
                 setIsLoadingPublicSettings(false);
                 setIsLoadingAuth(false);
@@ -166,6 +208,8 @@ export const AuthProvider = ({ children }) => {
 
         setUser(null);
         setIsAuthenticated(false);
+        // Clear any local PIN session marker
+        try { if (typeof window !== 'undefined') window.localStorage.removeItem('chama_local_session'); } catch (e) { }
 
         if (shouldRedirect) {
             // Use the SDK's logout method which handles token cleanup and redirect
@@ -221,6 +265,34 @@ export const AuthProvider = ({ children }) => {
         }
     };
 
+    // Sign in with a locally-stored PIN. This is a local-only auth mechanism
+    // (the PIN hash is stored in localStorage) and is intended as a fallback
+    // when Supabase/OAuth is not available or as a quick unlock mechanism.
+    const signInWithPin = async (pin) => {
+        try {
+            if (typeof window === 'undefined') return { error: new Error('Not available') };
+            const stored = window.localStorage.getItem('chama_pin_hash');
+            if (!stored) return { error: new Error('No PIN configured') };
+            const enc = new TextEncoder();
+            const data = enc.encode(pin);
+            const hashBuf = await crypto.subtle.digest('SHA-256', data);
+            const hashArray = Array.from(new Uint8Array(hashBuf));
+            const hashHex = hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+            if (hashHex === stored) {
+                // Mark a local session so it can be restored on reload
+                window.localStorage.setItem('chama_local_session', '1');
+                const profileJson = window.localStorage.getItem('chama_profile');
+                const profile = profileJson ? JSON.parse(profileJson) : { id: 'local-pin' };
+                setUser(profile);
+                setIsAuthenticated(true);
+                return { user: profile };
+            }
+            return { error: new Error('Invalid PIN') };
+        } catch (e) {
+            return { error: e };
+        }
+    };
+
     const resendVerification = async (email) => {
         // Supabase handles resend via signUp flow with redirect; provide helper to trigger magic link for verification
         return signInWithMagicLink(email);
@@ -242,6 +314,7 @@ export const AuthProvider = ({ children }) => {
             signInWithEmail,
             signInWithMagicLink,
             signInWithOAuth,
+            signInWithPin,
             resendVerification,
             hasSupabase
         }}>

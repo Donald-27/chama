@@ -70,6 +70,13 @@ import Reports from './pages/Reports';
 import AccountBalances from './pages/AccountBalances';
 import ScanQR from './pages/ScanQR';
 import Settings from './pages/Settings';
+import Profile from './pages/Profile';
+import PaymentMethods from './pages/PaymentMethods';
+import Help from './pages/Help';
+import Contact from './pages/Contact';
+import Legal from './pages/Legal';
+import Security from './pages/Security';
+import Language from './pages/Language';
 import Transactions from './pages/Transactions';
 
 export const PAGES = {
@@ -91,6 +98,13 @@ export const PAGES = {
     "AccountBalances": AccountBalances,
     "ScanQR": ScanQR,
     "Settings": Settings,
+    "Profile": Profile,
+    "PaymentMethods": PaymentMethods,
+    "Help": Help,
+    "Contact": Contact,
+    "Legal": Legal,
+    "Security": Security,
+    "Language": Language,
     "Transactions": Transactions,
 }
 
